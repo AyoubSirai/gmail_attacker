@@ -46,7 +46,6 @@ else:
 pass_file = open(file_path,'r')
 pass_list = pass_file.readlines()
 def login():
-    system('clear')
     i = 0
     user_name = raw_input('enter the target email :')
     server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
