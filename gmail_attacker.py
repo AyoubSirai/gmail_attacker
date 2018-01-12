@@ -1,4 +1,5 @@
 #!/usr/bin/python
+'''coded by ayoub sirai'''
 
 import smtplib
 from os import system
