@@ -2,9 +2,7 @@
 python script for hack gmail account using brute force attack
 # installation
 git clone https://github.com/ayoubsiray/gmail_attacker.git
-# usage
-cd gmail_attacker/
-python gmail_attacker.py
+
 # review
 ![screenshot from 2018-01-12 20 47 45](https://user-images.githubusercontent.com/28595515/34894595-f5ce60b6-f7d9-11e7-8ac1-5eb0180745e3.png)
 
