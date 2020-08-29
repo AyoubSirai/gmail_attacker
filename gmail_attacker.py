@@ -1,5 +1,5 @@
 #!/usr/bin/python
-'''coded by ayoub sirai'''
+'''coded by kazem wafa'''
 
 import smtplib
 from os import system
