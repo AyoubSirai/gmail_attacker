@@ -15,7 +15,7 @@ The following prerequisites are needed to run the script:
 To install and run the script, follow these steps:
 
 1. Download the script to your local machine
-   git clone https://github.com/ayoubsiray/gmail_attacker.git.
+   'git clone https://github.com/ayoubsiray/gmail_attacker.git'
 2. Install the required `smtplib` library: `pip install secure-smtplib`
 3. Open a terminal or command prompt and navigate to the directory where the script is located.
 4. Type the following command: `python email_brute_force.py`
