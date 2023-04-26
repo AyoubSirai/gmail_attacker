@@ -34,33 +34,3 @@ To use the script, follow these steps:
 ## Architecture and Design
 
 This script is built using Python and utilizes the `smtplib` library to connect to the SMTP server of the email provider. The script reads in a list of passwords from the user and then attempts to log in with each password in the list.
-
-## In-Production Usage Guides
-
-To use this script safely and effectively in production, follow these best practices:
-
-- Use the script only with permission from the email account owner.
-- Ensure that the password list is created using ethical and legal methods, such as through password cracking contests.
-- Use a stop list to exclude passwords that have already been tried or that are known to be ineffective.
-- Limit the number of login attempts per session to avoid account suspension or blacklisting.
-- Monitor the SMTP logs to detect unusual login attempts.
-
-If you encounter issues while running the script, consult the following troubleshooting tips:
-
-- Ensure that you have the correct login credentials and permission to access the target account.
-- Check that the password list is in the correct format and that it contains viable passwords.
-- Enable two-factor authentication on the target account to make it more difficult to hack.
-- If the script continues to fail, consider trying a different password cracking tool or approach.
-
-## Real-World Use Cases
-
-This script can be used in ethical hacking engagements, password cracking contests, and forensic investigations. It can be used to demonstrate the weaknesses of email security and to educate users on the importance of creating strong passwords.
-
-## References
-
-The script was built using the `smtplib` library, which is part of the Python Standard Library. Additional resources used in the development of this script include:
-
-- [Python documentation](https://docs.python.org/)
-- [smtplib documentation](https://docs.python.org/3/library/smtplib.html)
-- [How to Brute Force SMTP](https://www.cybrary.it/0p3n/brute-force-smtp/)
-- [SMTP Authentication Error Codes](https://github.com/awick/smtplib/blob/master/smtplib.py#L742)
